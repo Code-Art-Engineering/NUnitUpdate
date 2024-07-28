@@ -15,7 +15,7 @@ namespace NUnitUpdate
 
         private void BtHelp_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Code-Artist");
+            System.Diagnostics.Process.Start("https://github.com/Code-Art-Engineering/NUnitUpdate");
         }
     }
 }
