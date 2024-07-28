@@ -10,5 +10,5 @@ Select folder with NUnit test cases, and click process to see the magic happen.
 ## Notes for Developer
 Roslyn Code Analyzer is used in this project to parse the input code correctly without redevelop all the code analysis functions.
 
-## Limication
+## Limitation
 Only C# is supported for now. Feel free to port it over for other language
