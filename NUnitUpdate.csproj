@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.0</Version>
+    <Title>NUnit Update Tool</Title>
+    <Company>Code Art Engineering</Company>
+    <Description>Update NUnit Test from V3 to V4.</Description>
+    <Copyright>Copyright (c) Code Art Engineering 2024</Copyright>
+    <ApplicationIcon>CAELogoSmall.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="CAELogoSmall.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ClassLibraryNET\CodeArtEng\CodeArtEng.Extensions\CAELogoSmall.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CodeArtEng.Controls" Version="3.3.0" />
+    <PackageReference Include="CodeArtEng.Diagnostics" Version="4.1.0.1" />
+    <PackageReference Include="CodeArtEng.Extensions" Version="2.5.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.10.0" />
+  </ItemGroup>
+
+</Project>
