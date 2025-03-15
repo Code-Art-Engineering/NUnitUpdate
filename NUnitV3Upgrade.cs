@@ -31,6 +31,7 @@ namespace NUnitUpdate
                     {"IsFalse", "That"},
                     {"IsNull", "That"},
                     {"IsNotNull", "That"},
+                    {"IsEmpty","That" },
                     // Add more mappings as needed
                 };
         }
@@ -97,6 +98,7 @@ namespace NUnitUpdate
                 case "IsFalse":
                 case "IsNull":
                 case "IsNotNull":
+                case "IsEmpty":
                     node = TransformOneArgumentAssertion(node, memberAccess.Name.Identifier.Text);
                     break;
                 default:
